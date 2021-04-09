@@ -1,0 +1,496 @@
+{
+    "locations": [
+        {
+            "name": "Genesis Lower Plat",
+            "default_x": 824,
+            "default_y": 192,
+            "crystalBeds": [
+                {
+                    "name": "Crystal1"
+                },
+                {
+                    "name": "Crystal2"
+                },
+                {
+                    "name": "Crystal4"
+                },
+                {
+                    "name": "Crystal5"
+                },
+                {
+                    "name": "Crystal6"
+                },
+                {
+                    "name": "Crystal7"
+                }
+            ],
+            "seedBeds": [
+                {
+                    "name": "GachaS01-1"
+                },
+                {
+                    "name": "GachaS01-2"
+                },
+                {
+                    "name": "GachaS02-1"
+                },
+                {
+                    "name": "GachaS02-2"
+                },
+                {
+                    "name": "GachaS03-1"
+                },
+                {
+                    "name": "GachaS03-2"
+                },
+                {
+                    "name": "GachaS04-1"
+                },
+                {
+                    "name": "GachaS04-2"
+                },
+                {
+                    "name": "GachaS05-1"
+                },
+                {
+                    "name": "GachaS05-2"
+                },
+                {
+                    "name": "GachaS06-1"
+                },
+                {
+                    "name": "GachaS06-2"
+                },
+                {
+                    "name": "GachaS10-1"
+                },
+                {
+                    "name": "GachaS10-2"
+                },
+                {
+                    "name": "GachaS11-1"
+                },
+                {
+                    "name": "GachaS11-2"
+                },
+                {
+                    "name": "GachaS12-1"
+                },
+                {
+                    "name": "GachaS12-2"
+                },
+                {
+                    "name": "GachaS13-1"
+                },
+                {
+                    "name": "GachaS13-2"
+                },
+                {
+                    "name": "GachaS14-1"
+                },
+                {
+                    "name": "GachaS14-2"
+                },
+                {
+                    "name": "GachaS15-1"
+                },
+                {
+                    "name": "GachaS15-2"
+                },
+                {
+                    "name": "GachaS16-1"
+                },
+                {
+                    "name": "GachaS16-2"
+                },
+                {
+                    "name": "GachaS17-1"
+                },
+                {
+                    "name": "GachaS17-2"
+                },
+                {
+                    "name": "GachaS18-1"
+                },
+                {
+                    "name": "GachaS18-2"
+                },
+                {
+                    "name": "GachaS19-1"
+                },
+                {
+                    "name": "GachaS19-2"
+                },
+                {
+                    "name": "GachaS20-1"
+                },
+                {
+                    "name": "GachaS20-2"
+                },
+                {
+                    "name": "GachaS21-1"
+                },
+                {
+                    "name": "GachaS21-2"
+                }
+
+            ],
+            "suicideBed": {
+                "name": "suicide bed",
+                "x": 824,
+                "y": 192
+            }
+        },
+        {
+            "name": "Extinction Tower",
+            "default_x": 221,
+            "default_y": 321,
+            "crystalBeds": [
+                {
+                    "name": "gacha whip bed01"
+                },
+                {
+                    "name": "gacha whip bed02"
+                }
+            ],
+            "seedBeds": [
+                {
+                    "name": "gachaseed01"
+                },
+                {
+                    "name": "gachaseed02"
+                },
+                {
+                    "name": "gachaseed03"
+                },
+                {
+                    "name": "gachaseed04"
+                },
+                {
+                    "name": "gachaseed05"
+                },
+                {
+                    "name": "gachaseed06"
+                },
+                {
+                    "name": "gachaseed07"
+                },
+                {
+                    "name": "gachaseed08"
+                },
+                {
+                    "name": "gachaseed09"
+                },
+                {
+                    "name": "gachaseed10"
+                },
+                {
+                    "name": "gachaseed11"
+                },
+                {
+                    "name": "gachaseed12"
+                },
+                {
+                    "name": "gachaseed13"
+                },
+                {
+                    "name": "gachaseed14"
+                },
+                {
+                    "name": "gachaseed15"
+                },
+                {
+                    "name": "gachaseed16"
+                },
+                {
+                    "name": "gachaseed17"
+                },
+                {
+                    "name": "gachaseed18"
+                },
+                {
+                    "name": "gachaseed19"
+                },
+                {
+                    "name": "gachaseed20"
+                },
+                {
+                    "name": "gachaseed21"
+                },
+                {
+                    "name": "gachaseed22"
+                },
+                {
+                    "name": "gachaseed23"
+                },
+                {
+                    "name": "gachaseed24"
+                },
+                {
+                    "name": "gachaseed25"
+                },
+                {
+                    "name": "gachaseed26"
+                },
+                {
+                    "name": "gachaseed27"
+                },
+                {
+                    "name": "gachaseed28"
+                },
+                {
+                    "name": "gachaseed29"
+                },
+                {
+                    "name": "gachaseed30"
+                },
+                {
+                    "name": "gachaseed31"
+                },
+                {
+                    "name": "gachaseed32"
+                },
+                {
+                    "name": "gachaseed33"
+                },
+                {
+                    "name": "gachaseed34"
+                },
+                {
+                    "name": "gachaseed35"
+                },
+                {
+                    "name": "gachaseed36"
+                },
+                {
+                    "name": "gachaseed37"
+                },
+                {
+                    "name": "gachaseed38"
+                },
+                {
+                    "name": "gachaseed39"
+                },
+                {
+                    "name": "gachaseed40"
+                },
+                {
+                    "name": "gachaseed41"
+                },
+                {
+                    "name": "gachaseed42"
+                },
+                {
+                    "name": "gachaseed43"
+                },
+                {
+                    "name": "gachaseed44"
+                },
+                {
+                    "name": "gachaseed45"
+                },
+                {
+                    "name": "gachaseed46"
+                }
+            ],
+            "suicideBed": {
+                "name": "suicide bed",
+                "x": 221,
+                "y": 321 
+            }
+        },
+        {
+            "name": "North Ice",
+            "default_x": 484,
+            "default_y": 257,
+            "crystalBeds": [
+                {
+                    "name": "GachaCrystal1"
+                }
+            ],
+            "seedBeds": [
+                {
+                    "name": "GachaSeed01"
+                },
+                {
+                    "name": "GachaSeed02"
+                },
+                {
+                    "name": "GachaSeed03"
+                },
+                {
+                    "name": "GachaSeed04"
+                },
+                {
+                    "name": "GachaSeed05"
+                },
+                {
+                    "name": "GachaSeed06"
+                },
+                {
+                    "name": "GachaSeed07"
+                },
+                {
+                    "name": "GachaSeed08"
+                },
+                {
+                    "name": "GachaSeed09"
+                },
+                {
+                    "name": "GachaSeed10"
+                },
+                {
+                    "name": "GachaSeed11"
+                },
+                {
+                    "name": "GachaSeed12"
+                },
+                {
+                    "name": "GachaSeed13"
+                },
+                {
+                    "name": "GachaSeed14"
+                },
+                {
+                    "name": "GachaSeed15"
+                },
+                {
+                    "name": "GachaSeed16"
+                }
+            ],
+            "suicideBed": {
+                "name": "suicide bed",
+                "x": 484,
+                "y": 257 
+            }
+        },
+        {
+            "name": "Spider Cave",
+            "default_x": 795,
+            "default_y": 535,
+            "crystalBeds": [
+                {
+                    "name": "Big crystal 1"
+                }
+            ],
+            "seedBeds": [
+                {
+                    "name": "BIG GACHA 01"
+                },
+                {
+                    "name": "BIG GACHA 02"
+                },
+                {
+                    "name": "BIG GACHA 03"
+                },
+                {
+                    "name": "BIG GACHA 04"
+                },
+                {
+                    "name": "BIG GACHA 05"
+                },
+                {
+                    "name": "BIG GACHA 06"
+                },
+                {
+                    "name": "BIG GACHA 07"
+                },
+                {
+                    "name": "BIG GACHA 08"
+                },
+                {
+                    "name": "BIG GACHA 09"
+                },
+                {
+                    "name": "BIG GACHA 10"
+                },
+                {
+                    "name": "BIG GACHA 11"
+                },
+                {
+                    "name": "BIG GACHA 12"
+                },
+                {
+                    "name": "BIG GACHA 13"
+                },
+                {
+                    "name": "BIG GACHA 14"
+                },
+                {
+                    "name": "BIG GACHA 15"
+                },
+                {
+                    "name": "BIG GACHA 16"
+                },
+                {
+                    "name": "BIG GACHA 17"
+                },
+                {
+                    "name": "BIG GACHA 18"
+                },
+                {
+                    "name": "BIG GACHA 19"
+                },
+                {
+                    "name": "BIG GACHA 20"
+                },
+                {
+                    "name": "BIG GACHA 21"
+                },
+                {
+                    "name": "BIG GACHA 22"
+                },
+                {
+                    "name": "BIG GACHA 23"
+                },
+                {
+                    "name": "BIG GACHA 24"
+                },
+                {
+                    "name": "BIG GACHA 25"
+                },
+                {
+                    "name": "BIG GACHA 26"
+                },
+                {
+                    "name": "BIG GACHA 27"
+                },
+                {
+                    "name": "BIG GACHA 28"
+                },
+                {
+                    "name": "BIG GACHA 29"
+                },
+                {
+                    "name": "BIG GACHA 30"
+                },
+                {
+                    "name": "BIG GACHA 31"
+                },
+                {
+                    "name": "BIG GACHA 32"
+                },
+                {
+                    "name": "BIG GACHA 33"
+                },
+                {
+                    "name": "BIG GACHA 34"
+                },
+                {
+                    "name": "BIG GACHA 35"
+                },
+                {
+                    "name": "BIG GACHA 36"
+                }
+
+            ],
+            "suicideBed": {
+                "name": "suicide bed",
+                "x": 795,
+                "y": 535 
+            }
+        }
+
+    ]
+}
+
