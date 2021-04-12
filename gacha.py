@@ -352,7 +352,9 @@ def loadTheGacha():
         time.sleep(0.5)
         pyautogui.press('f')
         time.sleep(1.5)
-        if(ark.inventoryIsOpen() == False): #still can't open gacha, so post error and give up
+        if(ark.inventoryIsOpen() == False): #still can't open gacha, so return the seeds and return
+            ark.lookUp()
+            ark.depositOverhead()
             return
 
     # remove excess owl shit
@@ -406,18 +408,24 @@ def loadTheGacha():
     ark.lookDown()
 
 def seedOnce():
+    # hold down the e key
     time.sleep(0.5)
     pyautogui.keyDown('e')
     time.sleep(1.0)
+
+    # if the option to seed is visible
     if(checkForSeedText()):
+        # move mouse to that option and click it
         pyautogui.moveTo(971, 540, 0.1)
         pyautogui.moveTo(1209, 357, 0.1, pyautogui.easeInQuad)
         time.sleep(0.1)
         pyautogui.click();
         time.sleep(0.5)
 
+    # release e key
     pyautogui.keyUp('e')
 
+    # take all the seeds from the iguanodon
     if(ark.openInventory()):
         ark.takeAll("s")
         ark.takeStacks("berry", 1)
@@ -480,23 +488,29 @@ def turn(rh, delay=0.9):
     time.sleep(delay)
     pyautogui.keyUp(turnKey)
 
+# gets the berries from the feeding troughs
 def getTheBerries(direction):
+    # turn towards the troughs
     turn(direction)
     turn(direction, 0.5)
 
+    # look down a bit
     pyautogui.keyDown('down')
     time.sleep(0.05)
     pyautogui.keyUp('down')
 
     hasBerries = False
     count = 0
+    # tweak the direction of player until the 'press e to access inventory' text is fairly well centered on the screen
     while(checkInvAccessibleText() == False):
         if(count > 10):
             return False
         count += 1
         turn(direction, 0.05)
 
+    # open the inventory
     if(ark.openInventory()):
+        # take all the berries and check we have got berries
         ark.takeAll("berry")
         if(checkForTintos()):
             hasBerries = True
