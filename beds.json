@@ -4,6 +4,7 @@
             "name": "Genesis Lower Plat",
             "default_x": 824,
             "default_y": 192,
+            "food": "fiber",
             "crystalBeds": [
                 {
                     "name": "Crystal1"
@@ -145,6 +146,7 @@
             "name": "Extinction Tower",
             "default_x": 221,
             "default_y": 321,
+            "food": "fiber",
             "crystalBeds": [
                 {
                     "name": "gacha whip bed01"
@@ -296,13 +298,14 @@
             "suicideBed": {
                 "name": "suicide bed",
                 "x": 221,
-                "y": 321 
+                "y": 321
             }
         },
         {
             "name": "North Ice",
             "default_x": 484,
             "default_y": 257,
+            "food": "fiber",
             "crystalBeds": [
                 {
                     "name": "GachaCrystal1"
@@ -361,13 +364,14 @@
             "suicideBed": {
                 "name": "suicide bed",
                 "x": 484,
-                "y": 257 
+                "y": 257
             }
         },
         {
             "name": "Spider Cave",
             "default_x": 795,
             "default_y": 535,
+            "food": "fiber",
             "crystalBeds": [
                 {
                     "name": "Big crystal 1"
@@ -487,10 +491,9 @@
             "suicideBed": {
                 "name": "suicide bed",
                 "x": 795,
-                "y": 535 
+                "y": 535
             }
         }
 
     ]
 }
-
