@@ -306,6 +306,7 @@ def loadTheGacha(food):
 
     # look back up at the dedi
     ark.lookUp()
+    ark.lookUp()
     time.sleep(1.0)
     pyautogui.press('e') # put the seeds into the dedi
     time.sleep(1.0)
